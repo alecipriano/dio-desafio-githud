@@ -1,0 +1,5 @@
+Links Uteis:
+Markdown => https://www.markdownguide.org/getting-started/
+Bootstrap pt => https://getbootstrap.com.br/docs/4.1/getting-started/introduction/
+Bootstrap => https://getbootstrap.com/docs/5.1/components/card/
+gitbash => https://www.ti-enxame.com/pt/git/como-mudar-de-pasta-com-o-git-bash/942682038/
