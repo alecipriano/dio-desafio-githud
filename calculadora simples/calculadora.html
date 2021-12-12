@@ -9,14 +9,14 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <div class="fundo">
+    <div class="fundo text-center" >
         <h1>Calculadora HTML</h1>
         <div class="calculadora">
             <h1>Calculadora</h1>
-            <p id="resultado" maxlength="10"></p>
+            <p id="resultado" maxlength="9"></p>
             <table>
                 <tr>
-                    <td><button class="botao" onclick="clean()">C</button></td>
+                    <td><button class="botao"onclick="clean()">C</button></td>
                     <td><button class="botao" onclick="back()"><</button></td>
                     <td><button class="botao" onclick="insert('/')">/</button></td>
                     <td><button class="botao" onclick="insert('*')">X</button></td>
@@ -37,7 +37,7 @@
                     <td><button class="botao" onclick="insert('1')">1</button></td>
                     <td><button class="botao" onclick="insert('2')">2</button></td>
                     <td><button class="botao" onclick="insert('3')">3</button></td>
-                    <td><button class="botao" onclick="calcular()">=</button></td>
+                    <td><button class="botao"  onclick="calcular()">=</button></td>
                 </tr>
                 <tr>
                     <td><button class="botao" onclick="insert('0')">0</button></td>
@@ -49,30 +49,36 @@
         </div>
     </div>
     <script>
-        function insert(num) {
+        function insert(num)
+        {
             var numero = document.getElementById('resultado').innerHTML;
             document.getElementById('resultado').innerHTML = numero + num;
         }
-        function clean() {
+        function clean()
+        {
             document.getElementById('resultado').innerHTML = "";
         }
-        function back() {
-            var resultado = document.getElementById('resultado').innerHTML;
-            document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length - 1);
+        function back()
+        {
+            var resultado = document.getElementById('resultado').innerHTML ;
+            document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
         }
-        function calcular() {
-            var resultado = document.getElementById('resultado').innerHTML;
-            if (resultado) {
+        function calcular()
+        {
+            var resultado = document.getElementById('resultado').innerHTML ;
+            if(resultado)
+            {
                 document.getElementById('resultado').innerHTML = eval(resultado);
             }
-            else {
+            else
+            {
                 document.getElementById('resultado').innerHTML = "Nada...";
             }
         }
     </script>
 
-    <footer class="container-fluid text-center bg-dark text-white">
-        <p>Desenvolvido por Cipriano</p>
-    </footer>
+            <footer class="container-fluid text-center bg-dark text-white">
+            <p>Desenvolvido por Cipriano</p>
+        </footer>
 </body>
 </html>
