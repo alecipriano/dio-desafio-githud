@@ -1,4 +1,4 @@
-# dio-desafio-githud
+# dio-praticas-programação
 Aprendendo e praticando GitHub
 Repositório criado para o desafio de projeto sobre Git/GitHub da DIO
 
