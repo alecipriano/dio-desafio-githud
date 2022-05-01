@@ -1,6 +1,5 @@
 # dio-praticas-programação
-Aprendendo e praticando GitHub
-Repositório criado para o desafio de projeto sobre Git/GitHub da DIO
+Aprendendo e praticando
 
 ## Links Úteis
 [Sintaxe Basica Markdown](https://www.markdownguide.org/getting-started/)
